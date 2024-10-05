@@ -3,7 +3,7 @@ import Pfp from '../../assets/HimanshuS.png'
 
 export default function Himanshublog() {
     return (
-        <div className="dark:bg-gray-900 text-white flex align-item-center justify-content-center m-auto">
+        <div class="dark:bg-gray-900 text-[#DCDCDD] flex align-item-center justify-content-center m-auto">
             
             <div className="m-auto p-1 bg-[#27293F] min-h-screen mx-5 mt-32 mb-10">
 
@@ -29,8 +29,8 @@ export default function Himanshublog() {
 
                 <hr className="max-w-[900px] m-auto" />
 
-                <div className="px-10 max-w-[1300px] leading-7 mt-5 md:px-20 sm:px-10">
-                    <h1 className="text-4xl font-bold max-x-sm:text-2xl">Building <a href=""
+                <div className="px-10 max-w-[1300px] leading-7 mt-5 md:px-52 sm:px-10 max-phone:px-5">
+                    <h1 className="text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Building <a href=""
                         className="shadow-[inset_0_-0.25em_rgba(37,99,235,0.8)]">Tech MasterMind</a>, My Journey and Vision
                     </h1>
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">Hi, I’m Himanshu Seervi, the founder of <u>Tech
@@ -51,7 +51,7 @@ export default function Himanshublog() {
                         first internship at a Steel Factory as an
                         IT student.</p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">What is Tech MasterMind?</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">What is Tech MasterMind?</h1>
 
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">It's a website where I will interview a bunch of
@@ -77,7 +77,7 @@ export default function Himanshublog() {
                         others. And as for the first myth, yeah, I don’t believe that (The effect of social media and how it
                         has changed how we think).</p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">Challenges:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Challenges:</h1>
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">I only worked on this project for 3 days and
                         encountered a few
                         challenges that I need to overcome. The first challenge is finding people to interview. I've sent
@@ -85,7 +85,7 @@ export default function Himanshublog() {
                         as a starting point, but I need to come up with a better plan. The second problem is centering a
                         button on my website 😂🤨.</p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">How I came up with this idea? Why is this a good
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">How I came up with this idea? Why is this a good
                         idea?</h1>
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">So as I mentioned before that I am going into
                         second year and
@@ -112,7 +112,7 @@ export default function Himanshublog() {
                         portfolio, making it look impressive since I've created something that aims to solve a problem. It's
                         a <strong>win-win</strong>.</p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">Monthly Goal:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Monthly Goal:</h1>
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">I got the idea to start Tech MasterMind on July
                         23, 2024, and
                         I'm writing this on the 26th, so there's not much time left this month. My main goal for this month

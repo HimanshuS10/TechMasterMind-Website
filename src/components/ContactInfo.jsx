@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div className="dark:bg-gray-900 text-white flex align-item-center justify-content-center">
+        <div className="dark:bg-gray-900 text-[#DCDCDD] flex align-item-center justify-content-center">
 
             <div className="m-auto p-1 bg-[#27293F] min-h-screen mx-5 mt-32 mb-10">
                 <div class="p-10 max-w-[1300px] m-auto">
@@ -20,17 +20,15 @@ export default function Contact() {
                     </p>
                     <ul class="list-none mt-7 md:text-[22px]">
                         <li><a href="mailto:himseervi@gmail.com" class="text-xl hover:underline max-x-sm:text-lg"><i
-                            class='bx bxs-envelope'></i>
-                            himseervi@gmail.com</a></li>
+                            class='bx bxs-envelope'></i> himseervi@gmail.com</a></li>
                         <li><a href="https://www.instagram.com/himanshu_seervi10"
                             class="text-xl hover:underline max-x-sm:text-lg" target="_blank"><i
                                 class='bx bxl-instagram-alt'></i> @himanshu_seervi10</a></li>
                         <li><a href="https://x.com/Himanshu_10S" class="text-xl hover:underline max-x-sm:text-lg"
-                            target="_blank"><i class='bx bxl-linkedin-square'></i> @Himanshu_10S
+                            target="_blank"><i class='bx bxl-twitter'></i> @Himanshu_10S
                         </a></li>
                         <li><a href="https://www.linkedin.com/in/himanshu-seervi/"
-                            class="text-xl hover:underline max-x-sm:text-lg" target="_blank"><i
-                                class="fa fa-twitter"></i> Himanshu Seervi
+                            class="text-xl hover:underline max-x-sm:text-lg" target="_blank"><i class='bx bxl-linkedin-square'></i> Himanshu Seervi
                         </a></li>
                     </ul>
                     <br />

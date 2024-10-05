@@ -3,7 +3,7 @@ import Pfp from '../../assets/Jason-Profile.jpg'
 
 export default function Jasonblog() {
     return (
-        <div class="dark:bg-gray-900 text-white flex align-item-center justify-content-center m-auto">
+        <div class="dark:bg-gray-900 text-[#DCDCDD] flex align-item-center justify-content-center m-auto">
             <div class="m-auto p-1 bg-[#27293F] min-h-screen mx-5 mt-32 mb-10">
 
                 <div className="p-5 z-0">
@@ -28,13 +28,12 @@ export default function Jasonblog() {
 
                 <hr className="max-w-[900px] m-auto" />
 
-                <div class="px-10 max-w-[1300px] leading-7 mt-5 md:px-20 sm:px-10">
+                <div className="px-10 max-w-[1300px] leading-7 mt-5 md:px-52 sm:px-10 max-phone:px-5">
                     <h1 className="text-4xl font-bold max-x-sm:text-2xl"><a href=""
-                        className="shadow-[inset_0_-0.25em_rgba(37,99,235,0.8)]">From Self-Doubt to Microsoft:</a>
-                        Learn how Jason became a software engineer at Microsoft.
+                        className="shadow-[inset_0_-0.25em_rgba(37,99,235,0.8)]">From Self-Doubt to Microsoft:</a> Learn how Jason became a software engineer at Microsoft.
                     </h1>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">Early Stage:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Early Stage:</h1>
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">Jason was born in Ireland and moved to Canada
                         when he was 8 years old. He wasn't the smartest kid in his class and wasn't a math whiz or an app
@@ -49,7 +48,7 @@ export default function Jasonblog() {
                         down Jason's confidence. He really thought that he was going to drop out.
                     </p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">First Course:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">First Course:</h1>
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">
                         Jason's first course was "Intro to Computer Science," where he learned <a
@@ -73,14 +72,14 @@ export default function Jasonblog() {
                             href="https://www.mapleleaffoods.com/" target="_blank">Maple Leaf Foods.</a>
                     </p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">Second Year:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Second Year:</h1>
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">
                         This is when Jason studied object-oriented programming. He learned about inheritance, polymorphism,
                         and all the things that make you a skilled programmer.
                     </p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">Worst Co-op Experience:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Worst Co-op Experience:</h1>
 
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">The summer of 2015 rolls around, and he lands a
@@ -89,7 +88,7 @@ export default function Jasonblog() {
                     </p>
 
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">Third Year:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Third Year:</h1>
 
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">Jason mentioned that this is the lowest point
@@ -101,7 +100,7 @@ export default function Jasonblog() {
                         was stuck on a concept that he didn't understand.
                     </p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">Bad Interview:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Bad Interview:</h1>
 
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">Jason wanted to live in California, so he
@@ -118,7 +117,7 @@ export default function Jasonblog() {
                         there that he learned about front-end and back-end frameworks.
                     </p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">This isn't a race:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">This isn't a race:</h1>
 
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">Test your code. There were plenty of times where
@@ -137,7 +136,7 @@ export default function Jasonblog() {
                         also gave him the highest rating.
                     </p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">Another Shot at Yahoo:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Another Shot at Yahoo:</h1>
 
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">Jason reapplied at Yahoo, and this time, he was
@@ -149,7 +148,7 @@ export default function Jasonblog() {
                         the space with a few roommates, cockroaches!
                     </p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">Research Before Asking Questions:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Research Before Asking Questions:</h1>
 
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">There were many times when he asked unnecessary
@@ -167,7 +166,7 @@ export default function Jasonblog() {
                             he can get that job, surely I can get it too, right?"</i>
                     </p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">Interview at Microsoft:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Interview at Microsoft:</h1>
 
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">Jason applied for a job and got the interview.
@@ -181,7 +180,7 @@ export default function Jasonblog() {
                         Microsoft.
                     </p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-x-sm:text-2xl">His advice: Don't be an elephant:</h1>
+                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">His advice: Don't be an elephant:</h1>
 
 
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">Jason once said, <i>"Don't be an elephant."</i>

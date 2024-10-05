@@ -3,7 +3,7 @@ import Pfp from '../../assets/BrianR.jpg'
 
 export default function Brianblog() {
     return (
-        <div class="dark:bg-gray-900 text-white flex align-item-center justify-content-center m-auto">
+        <div class="dark:bg-gray-900 text-[#DCDCDD] flex align-item-center justify-content-center m-auto">
 
             <div class="m-auto p-1 bg-[#27293F] min-h-screen mx-5 mt-32 mb-10">
 
@@ -28,13 +28,13 @@ export default function Brianblog() {
 
                 <hr class="max-w-[900px] m-auto" />
 
-                <div class="px-10 max-w-[1300px] leading-7 mt-5 md:px-20 sm:px-10">
-                    <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Here's How Brian Became a <span
+                <div className="px-10 max-w-[1300px] leading-7 mt-5 md:px-52 sm:px-10 max-phone:px-5">
+                    <h1 class="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Here's How Brian Became a <span
                         class="shadow-[inset_0_-0.25em_rgba(37,99,235,0.8)]">Full Stack Engineer</span> Without a
                         Degree.</h1>
 
 
-                    <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Early Age</h1>
+                    <h1 class="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Early Age</h1>
                     <p class="my-7 text-lg md:text-[22px] max-sm:text-base">From a young age, Brian always had a keen
                         interest in
                         technology. His fascination with computers and the Internet began in childhood when he spent
@@ -43,7 +43,7 @@ export default function Brianblog() {
                         the field of
                         computer science, setting the foundation for his future career as a full-stack engineer.</p>
 
-                    <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Education</h1>
+                    <h1 class="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Education</h1>
                     <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Like many in his field, Brian did not follow the
                         traditional
                         educational path. He chose not to attend boot camps and doesn't hold a college degree.</p>
@@ -58,7 +58,7 @@ export default function Brianblog() {
                         were instrumental in his early career. He secured his first paid coding job through university
                         connections, teaching kids at a summer coding boot camp.</p>
 
-                    <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Personal Projects</h1>
+                    <h1 class="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Personal Projects</h1>
                     <p class="my-7 text-lg md:text-[22px] max-sm:text-base">One of Brian's key strategies for success has
                         been his
                         dedication to personal projects. These projects have allowed him to gain hands-on experience and
@@ -95,7 +95,7 @@ export default function Brianblog() {
                             interests and strengths.</li>
                     </ul>
 
-                    <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Online Resources</h1>
+                    <h1 class="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Online Resources</h1>
                     <ul class="my-7 text-lg md:text-[22px] max-sm:text-base">
                         <li><a class="underline decoration-blue-500" href="https://sololearn.com"
                             target="_blank">SoloLearn</a></li>
@@ -111,7 +111,7 @@ export default function Brianblog() {
                             target="_blank">LeetCode</a></li>
                     </ul>
 
-                    <h1 class="mt-7 text-4xl font-bold max-x-sm:text-2xl">Conclusion</h1>
+                    <h1 class="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Conclusion</h1>
                     <p class="my-7 text-lg md:text-[22px] max-sm:text-base">Brian's journey to becoming a full-stack
                         engineer at Hines is a
                         testament to the power of curiosity, persistence, and continuous learning.</p>

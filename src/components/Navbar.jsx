@@ -20,7 +20,7 @@ export default function Navbar() {
             const menu = document.getElementById(toggleButton.getAttribute('data-collapse-toggle'));
 
             toggleButton.addEventListener('click', () => {
-                const expanded = toggleButton.getAttribute('aria-expanded') === 'true' || false;
+                const expanded = toggleButton.getAttribute('aria-expanded') === 'true' || 'false';
                 toggleButton.setAttribute('aria-expanded', !expanded);
                 menu.classList.toggle('hidden');
             });
@@ -39,7 +39,7 @@ export default function Navbar() {
     return (
         <nav className="fixed w-full bg-white border-gray-200 dark:bg-gray-900 z-10">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="/index" className="flex items-center space-x-3 rtl:space-x-reverse">
+                <a href="../" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">Tech MasterMind</span>
                 </a>
                 <button data-collapse-toggle="navbar-default" type="button"
@@ -56,19 +56,19 @@ export default function Navbar() {
                     <ul
                         className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
-                            <a href="./Stories/Story1"
+                            <a href="../"
                                 className="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Home</a>
                         </li>
                         <li>
-                            <a href="./Stories/Story1"
+                            <a href="../stories/Himanshu"
                                 className="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">About</a>
                         </li>
                         <li>
-                            <a href="./index"
+                            <a href="../stories"
                                 className="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Stories</a>
                         </li>
                         <li>
-                            <a href="./contact"
+                            <a href="../contact"
                                 className="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Contact</a>
                         </li>
                     </ul>
