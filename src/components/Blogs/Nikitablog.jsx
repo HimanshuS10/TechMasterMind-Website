@@ -3,7 +3,7 @@ import Pfp from '../../assets/NikitaV.jpg'
 
 export default function Nikitablog() {
     return (
-        <div class="dark:bg-gray-900 text-[#DCDCDD] flex align-item-center justify-content-center m-auto">
+        <div className="dark:bg-gray-900 text-[#DCDCDD] flex align-item-center justify-content-center m-auto">
 
             <div className="m-auto p-1 bg-[#27293F] min-h-screen mx-5 mt-32 mb-10">
 
@@ -12,7 +12,7 @@ export default function Nikitablog() {
                         className="mt-5 max-w-[650px] bg-[#2d2f34] rounded-2xl m-auto flex flex-col md:flex-row drop-shadow-2xl overflow-hidden">
                         <div className="w-full md:w-[300px] h-[300px]">
                             <img src={Pfp} className="w-full h-full object-cover"
-                                alt="Nikita Verkhoshintcev" />
+                                alt="Image of Nikita Verkhoshintcev" />
                         </div>
                         <div className="text-white flex flex-col justify-center space-y-3 p-5 w-full md:w-6/12">
                             <h1 className="text-2xl font-bold">Nikita Verkhoshintcev</h1>

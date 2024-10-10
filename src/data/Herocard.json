@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "Name": "Brian Ruiz",
+        "Title": "Here's How Brian Became a Full Stack Engineer Without a Degree",
+        "Image": "/BrianR.jpg",
+        "Links": "stories/Brian"
+    },
+    {
+        "id": 2,
+        "Name": "Nikita Verkhoshintcev",
+        "Title": "Learning to Code to Becoming a Salesforce Developer",
+        "Image": "/NikitaV.jpg",
+        "Links": "stories/Nikita"
+    },
+    {
+        "id": 3,
+        "Name": "Jason Goodison",
+        "Title": "From Self-Doubt to Microsoft: Learn how Jason became a software engineer at Microsoft",
+        "Image": "/Jason-Profile.jpg",
+        "Links": "stories/Jason"
+    }
+]
