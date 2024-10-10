@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "Name": "Himanshu Seervi",
+        "Role": "Founder of Tech MasterMind",
+        "Description": "Hi there! My name is Himanshu Seervi, and I am the founder of Tech MasterMind. On this page, I'll be sharing my journey in building Tech MasterMind. Read the blog below to learn more about me and Tech MasterMind.",
+        "Image": "/HimanshuS.png"
+    },
+    {
+        "id": 2,
+        "Name": "Brian Ruiz",
+        "Role": "Full Stack Engineer at Hines",
+        "Description": "Discover how Brian Ruiz became a Full Stack Engineer at Hines without a college degree. Through self-taught skills, hands-on projects, and valuable university experiences, he built a successful career in technology.",
+        "Image": "/BrianR.jpg"
+
+    },
+    {
+        "id": 3,
+        "Name": "Nikita Verkhoshintcev",
+        "Role": "Salesforce Consultant at Digital Flask",
+        "Description": "Nikita Verkhoshintcev's journey from a novice coder to a Salesforce Developer and Solution Architect. It covers his experiences with learning to code and much more, and also offers practical advice for aspiring developers.",
+        "Image": "/NikitaV.jpg"
+
+    },
+    {
+        "id": 4,
+        "Name": "Jason Goodison",
+        "Role": "Founder of Pair AI",
+        "Description": "Meet Jason Goodison, the founder of a software company called Pair AI. Learn how Jason became a software engineer despite struggling with coding, and having worked for Yahoo, Toast, and Microsoft before becoming an techpreneur.",
+        "Image": "/Jason-Profile.jpg"
+    }
+]
