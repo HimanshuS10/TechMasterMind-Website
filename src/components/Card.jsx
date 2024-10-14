@@ -25,7 +25,7 @@ export default function Card() {
                         >
                             <div className="box">
                                 <div id="box">
-                                    <div className="max-w-[520px] h-[200px] overflow-hidden">
+                                    <div className="max-w-full h-[200px] overflow-hidden">
                                         <img
                                             className="w-full h-full object-cover"
                                             src={infomation.Image}
