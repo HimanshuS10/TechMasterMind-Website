@@ -13,23 +13,7 @@ import './App.css'
 
 export default function App() {
   return (
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path='/' index element={<Main />} />
-    //     <Route path='/stories' index element={<Stories />} />
-    //     {/* All the stories links */}
-    //     <Route path='stories/Himanshu' index element={<Himanshu />} />
-    //     <Route path='stories/Jason' index element={<Jason />} />
-    //     <Route path='stories/Brian' index element={<Brian />} />
-    //     <Route path='stories/Nikita' index element={<Nikita />} />
-    //     {/* 404 Page */}
-    //     <Route path='*' index element={<PageNotFound />}/>
-    //     {/* Contact Page */}
-    //     <Route path='/contact' index element={<Contact />}/>
-    //   </Routes>
-    // </BrowserRouter>
-
-    <HashRouter basename="/app">
+    <BrowserRouter>
       <Routes>
         <Route path='/' index element={<Main />} />
         <Route path='/stories' index element={<Stories />} />
@@ -43,8 +27,7 @@ export default function App() {
         {/* Contact Page */}
         <Route path='/contact' index element={<Contact />}/>
       </Routes>
-    </HashRouter>
-
+    </BrowserRouter>
   
   )
 }
