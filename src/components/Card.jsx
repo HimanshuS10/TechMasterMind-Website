@@ -16,17 +16,11 @@ export default function Card() {
             <Searchbar items={info} setFilteredItems={setFilteredItems} />
             <div className="flex p-5 w-full">
                 <div className="grid gap-5 m-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                    {filteredItems.map((infomation, index) => (
+                    {filteredItems.map((infomation) => (
                         <a
                             key={infomation.id}
                             href={infomation.Links}
-                            className={`max-w-[520px] min-h-full bg-[#27293F] justify-center items-center mb-6 
-                                hover:shadow-[0px_0px_20px_#0085FF] transition-all duration-[400ms]
-                                ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}
-                                duration-200 ease-in-out`}
-                            style={{
-                                transitionDelay: `${index * 200}ms`, // Stagger animation by 200ms
-                            }}
+                            className="max-w-[520px] min-h-full bg-[#27293F] justify-center items-center mb-6 hover:shadow-[0px_0px_20px_#0085FF] transition-all duration-[400ms]"
                             id={`box-${infomation.id}`}
                         >
                             <div className="box">
