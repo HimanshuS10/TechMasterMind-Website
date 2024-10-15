@@ -4,7 +4,7 @@ import Pfp from '../../assets/HimanshuS.png'
 export default function Himanshublog() {
     return (
         <div className="dark:bg-gray-900 text-[#DCDCDD] flex align-item-center justify-content-center m-auto">
-            
+
             <div className="m-auto p-1 bg-[#27293F] min-h-screen mx-5 mt-32 mb-10">
 
                 <div className="p-5 z-0">
@@ -36,20 +36,12 @@ export default function Himanshublog() {
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">Hi, I’m Himanshu Seervi, the founder of <u>Tech
                         MasterMind</u>.
                     </p>
-                    <p className="my-7 text-lg md:text-[22px] max-sm:text-base">I'm a university student entering my second year
-                        in September
-                        2024, studying software engineering in
-                        Canada. I used to have two businesses, one was a marketing agency offering short-form content and
-                        the other was an AI Automation Agency. My marketing agency was running pretty well, making around 
+                    <p className="my-7 text-lg md:text-[22px] max-sm:text-base">
+                        I'm a 2nd year university student studying software engineering at University of Guelph.
+                        I used to have two businesses, one was a marketing agency offering short-form content and
+                        the other was an AI Automation Agency. My marketing agency was running pretty well, making around
                         {" "}<u>$500-$700</u> per month. I know it's not a lot, 😂.
                     </p>
-
-                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">A little bit about me:</h1>
-
-                    <p className="my-7 text-lg md:text-[22px] max-sm:text-base">While I am building Tech MasterMind, I am also
-                        working my
-                        first internship at a Steel Factory as an
-                        IT student.</p>
 
                     <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">What is Tech MasterMind?</h1>
 
@@ -68,7 +60,7 @@ export default function Himanshublog() {
                         how they landed their first job and their journey up to this point.</p>
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">I feel like there are a lot of myths going
                         around the world.
-                        The first being that working a 9-5 job is running your life and the second being that it is
+                        The first being that working a 9-5 job is ruining your life and the second being that it is
                         impossible to get a <u>CS internship</u> in this job market. Now, even I think that getting an
                         internship in this job market is hard, well, at least in Canada.</p>
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">This is why I want to interview developers so
@@ -77,22 +69,12 @@ export default function Himanshublog() {
                         others. And as for the first myth, yeah, I don’t believe that (The effect of social media and how it
                         has changed how we think).</p>
 
-                    <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">Challenges:</h1>
-                    <p className="my-7 text-lg md:text-[22px] max-sm:text-base">I only worked on this project for 3 days and
-                        encountered a few
-                        challenges that I need to overcome. The first challenge is finding people to interview. I've sent
-                        some cold emails, but the main issue is finding suitable interviewees. I've used YouTube and blogs
-                        as a starting point, but I need to come up with a better plan. The second problem is centering a
-                        button on my website 😂🤨.</p>
-
                     <h1 className="mt-7 text-4xl font-bold max-mid:text-3xl max-phone:text-2xl max-phone:my-0">How I came up with this idea? Why is this a good
                         idea?</h1>
-                    <p className="my-7 text-lg md:text-[22px] max-sm:text-base">So as I mentioned before that I am going into
-                        second year and
-                        many students, including myself, start working on side projects to add to their portfolios. When I
-                        opened VSCode I had no idea what I wanted to build, so I went on YouTube to do some research. That's
-                        when I came across Pat Walls, founder of <a href="https://www.starterstory.com/"
-                            className="underline decoration-blue-500" target="_blank">Starter Story.</a> I was already familiar
+                    <p className="my-7 text-lg md:text-[22px] max-sm:text-base">
+                        So, as I mentioned before, I am a 2nd-year university student and many students, including myself, have started working on side projects to add to their portfolios. When I opened VSCode, I had no idea what I wanted to build, so I went to YouTube to do some research. That's when I came across Pat Walls, founder of
+                        <a href="https://www.starterstory.com/"
+                            className="underline decoration-blue-500" target="_blank"> Starter Story.</a> I was already familiar
                         with Pat and rewatched one of his
                         videos on
                         <u className="underline decoration-blue-500"><a className="editor-rtfLink decoration-dashed"
@@ -119,9 +101,6 @@ export default function Himanshublog() {
                         is to complete the development of the website, deploy it online, and post at least 3 blogs. I also
                         aim to set up Google Analytics, although I'm not sure how to do this. I'll hopefully be able to
                         figure it out by searching online.</p>
-                    <p className="my-7 text-lg md:text-[22px] max-sm:text-base">I’ll keep you guys posted see you next month and
-                        don’t forget
-                        to subscribe by putting your email below.</p>
                     <p className="my-7 text-lg md:text-[22px] max-sm:text-base">Thanks for reading!</p>
 
                 </div>
