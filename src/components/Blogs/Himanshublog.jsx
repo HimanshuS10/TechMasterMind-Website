@@ -1,7 +1,7 @@
 import React from 'react'
 import Pfp from '../../assets/HimanshuS.png'
 import StarterStory from '../../assets/StarterStory.png'
-import Stats from '../../assets/Stats.png'
+import Stats from '../../assets/stats.png'
 
 export default function Himanshublog() {
     return (
