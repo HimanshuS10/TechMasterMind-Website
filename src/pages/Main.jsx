@@ -6,9 +6,9 @@ import Footer from '../components/Footer'
 export default function Main() {
   return (
     <>
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <Footer></Footer>
+      <Navbar />
+      <Hero />
+      <Footer />
     </>
   )
 }

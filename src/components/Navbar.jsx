@@ -39,15 +39,16 @@ export default function Navbar() {
         <nav className="fixed w-full bg-white border-gray-200 dark:bg-gray-900 z-10">
             <div className="flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="../" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <svg width="50" height="50" viewBox="0 0 911 911" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M143.426 283H423.426L415.426 325H298.926L237.426 643H189.426L250.926 325H135.426L143.426 283ZM476.418 283H516.418L604.418 481L588.418 479L750.418 283H790.418L720.418 643H672.418L728.418 353L744.418 355L607.418 519H569.418L496.418 355L510.418 353L454.418 643H406.418L476.418 283Z" fill="white" />
-                        <circle cx="455.5" cy="455.5" r="435.5" stroke="white" stroke-width="40" />
-                        <line x1="147" y1="283.5" x2="62" y2="283.5" stroke="white" />
-                        <line x1="147" y1="324.5" x2="54" y2="324.5" stroke="white" />
-                        <rect x="57" y="284" width="87" height="40" fill="white" />
-                        <line x1="863" y1="601.5" x2="724" y2="601.5" stroke="white" />
-                        <line x1="863" y1="642.5" x2="717" y2="642.5" stroke="white" />
-                        <rect x="717" y="602" width="141" height="40" fill="white" />
+                    <svg width="50" height="50" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="496" y="790" width="445" height="87" transform="rotate(-90 496 790)" fill="white" />
+                        <rect x="1010" y="707" width="954" height="87" transform="rotate(180 1010 707)" fill="white" />
+                        <rect x="124" y="292" width="858" height="87" fill="white" />
+                        <mask id="path-4-outside-1_88_85" maskUnits="userSpaceOnUse" x="1" y="242" width="1078" height="657" fill="black">
+                            <rect fill="white" x="1" y="242" width="1078" height="657" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M130 292H51V707H130V405.859L538.03 827.782L539.909 825.964L541.789 827.782L949.818 405.859V707H1028.82V292H949.818V292.219L539.909 716.085L130 292.219V292Z" />
+                        </mask>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M130 292H51V707H130V405.859L538.03 827.782L539.909 825.964L541.789 827.782L949.818 405.859V707H1028.82V292H949.818V292.219L539.909 716.085L130 292.219V292Z" fill="white" />
+                        <path d="M51 292V242H1V292H51ZM130 292H180V242H130V292ZM51 707H1V757H51V707ZM130 707V757H180V707H130ZM130 405.859L165.942 371.101L80 282.232V405.859H130ZM538.03 827.782L502.087 862.54L536.846 898.483L572.788 863.724L538.03 827.782ZM539.909 825.964L574.668 790.022L539.909 756.408L505.151 790.022L539.909 825.964ZM541.789 827.782L507.03 863.724L542.972 898.483L577.731 862.54L541.789 827.782ZM949.818 405.859H999.818V282.232L913.876 371.101L949.818 405.859ZM949.818 707H899.818V757H949.818V707ZM1028.82 707V757H1078.82V707H1028.82ZM1028.82 292H1078.82V242H1028.82V292ZM949.818 292V242H899.818V292H949.818ZM949.818 292.219L985.76 326.977L999.818 312.441V292.219H949.818ZM539.909 716.085L503.967 750.843L539.909 788.009L575.851 750.843L539.909 716.085ZM130 292.219H80V312.441L94.0579 326.977L130 292.219ZM51 342H130V242H51V342ZM101 707V292H1V707H101ZM130 657H51V757H130V657ZM80 405.859V707H180V405.859H80ZM573.972 793.023L165.942 371.101L94.0579 440.618L502.087 862.54L573.972 793.023ZM505.151 790.022L503.271 791.84L572.788 863.724L574.668 861.906L505.151 790.022ZM505.151 861.906L507.03 863.724L576.547 791.84L574.668 790.022L505.151 861.906ZM577.731 862.54L985.76 440.618L913.876 371.101L505.847 793.023L577.731 862.54ZM999.818 707V405.859H899.818V707H999.818ZM1028.82 657H949.818V757H1028.82V657ZM978.818 292V707H1078.82V292H978.818ZM949.818 342H1028.82V242H949.818V342ZM999.818 292.219V292H899.818V292.219H999.818ZM913.876 257.46L503.967 681.326L575.851 750.843L985.76 326.977L913.876 257.46ZM94.0579 326.977L503.967 750.843L575.851 681.326L165.942 257.46L94.0579 326.977ZM80 292V292.219H180V292H80Z" fill="#111827" mask="url(#path-4-outside-1_88_85)" />
                     </svg>
 
                 </a>
@@ -62,31 +63,47 @@ export default function Navbar() {
                             d="M1 1h15M1 7h15M1 13h15" />
                     </svg>
                 </button>
-                <div className="hidden text-xl w-full md:block md:w-auto" id="navbar-default">
+                <div className="hidden text-xl w-full md:block md:w-auto font-coding" id="navbar-default">
                     <ul
                         className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
                             <a href="../"
-                                className="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Home</a>
+                                className="font-light block py-2 px-3 text-white relative group ">
+                                <span>Home</span>
+                                <span className="absolute -bottom-1 left-1/2 w-0 h-1 bg-blue-600 group-hover:w-1/2 group-hover:transition-all"></span>
+                                <span className="absolute -bottom-1 right-1/2 w-0 h-1 bg-blue-600 group-hover:w-1/2 group-hover:transition-all"></span>
+                            </a>
                         </li>
                         <li>
                             <a href="../stories/Himanshu"
-                                className="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">About</a>
+                                className="font-light block py-2 px-3 text-white relative group ">
+                                <span>About</span>
+                                <span className="absolute -bottom-1 left-1/2 w-0 h-1 bg-blue-600 group-hover:w-1/2 group-hover:transition-all"></span>
+                                <span className="absolute -bottom-1 right-1/2 w-0 h-1 bg-blue-600 group-hover:w-1/2 group-hover:transition-all"></span>
+                            </a>
                         </li>
                         <li>
                             <a href="../stories"
-                                className="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Stories</a>
+                                className="font-light block py-2 px-3 text-white relative group ">
+                                <span>Stories</span>
+                                <span className="absolute -bottom-1 left-1/2 w-0 h-1 bg-blue-600 group-hover:w-1/2 group-hover:transition-all"></span>
+                                <span className="absolute -bottom-1 right-1/2 w-0 h-1 bg-blue-600 group-hover:w-1/2 group-hover:transition-all"></span>
+                            </a>
                         </li>
                         <li>
                             <a href="../contact"
-                                className="block py-2 px-3 text-white rounded hover:bg-blue-600 duration-200">Contact</a>
+                                className="font-light block py-2 px-3 text-white relative group ">
+                                <span>Contact</span>
+                                <span className="absolute -bottom-1 left-1/2 w-0 h-1 bg-blue-600 group-hover:w-1/2 group-hover:transition-all"></span>
+                                <span className="absolute -bottom-1 right-1/2 w-0 h-1 bg-blue-600 group-hover:w-1/2 group-hover:transition-all"></span>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <div className="w-full h-2 bg-[#ccc]">
-                <div className="h-2 w-0 bg-blue-600" id="myBar"></div>
+            <div className="w-full h-1 bg-[#ccc]">
+                <div className="h-1 w-0 bg-blue-600" id="myBar"></div>
             </div>
         </nav>
     );

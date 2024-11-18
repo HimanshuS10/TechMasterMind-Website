@@ -20,7 +20,7 @@ export default function Card() {
                         <a
                             key={infomation.id}
                             href={infomation.Links}
-                            className="max-w-[520px] min-h-full bg-[#27293F] justify-center items-center mb-6"
+                            className="max-w-[520px] min-h-full bg-[#27293F] justify-center items-center mb-6 hover:shadow-[0_4px_15px_rgba(59,130,246,0.8)] hover:duration-300"
                             id={`box-${infomation.id}`}
                         >
                             <div>
@@ -44,6 +44,7 @@ export default function Card() {
                     ))}
                 </div>
             </div>
+            
         </>
     );
 }
