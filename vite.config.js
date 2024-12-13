@@ -5,14 +5,3 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 })
-
-
-// import SitemapPlugin from 'vite-plugin-sitemap';
-
-// export default {
-//   plugins: [
-//     SitemapPlugin({
-//       hostname: 'https://yourwebsite.com'
-//     })
-//   ]
-// };
