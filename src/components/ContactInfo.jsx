@@ -13,10 +13,10 @@ export default function Contact() {
                         </span>
                     </h1>
 
-                    <div className='flex'>
-                        <img src={Himanshu} className='mt-7 rounded-full border-2 border-neutral-950 h-36' alt="A picture of Himanshu Seervi the founder of Tech MasterMind" />
+                    <div className='flex max-lmid:flex-col'>
+                        <img src={Himanshu} className='mt-7 rounded-full border-2 border-neutral-950 h-36 max-lmid:h-36 max-lmid:w-36' alt="A picture of Himanshu Seervi the founder of Tech MasterMind" />
 
-                        <p className="text-xl ml-10 mt-7 md:text-[22px] max-x-sm:text-lg">
+                        <p className="text-xl ml-10 mt-7 md:text-[22px] max-x-sm:text-lg max-lmid:ml-0">
                             Hi there! I'm <span className="shadow-[inset_0_-0.25em_rgba(37,99,235,0.8)]">Himanshu Seervi</span>
                             , the founder of Tech MasterMind. I created this
                             website with the goal of helping students like me who are interested in pursuing a
