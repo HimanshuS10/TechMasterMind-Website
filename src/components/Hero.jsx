@@ -61,7 +61,6 @@ export default function Hero() {
                 <br />
             </div>
 
-
             {/* <div className="flex justify-center mt-8">
                 <div className="max-w-screen-sm w-full">
                     <Newsletter />
