@@ -43,13 +43,12 @@ export default function Hero() {
                                 <p className="font-normal translate-x-4">Learn More</p>
                             </button>
                         </a>
-
                     </div>
                 </div>
             </div>
 
             <div className="w-full mt-12 px-4 sm:px-6 lg:px-8">
-                <h1 className='text-[30px] max-mxl:text-[30px] max-mxl:px-16 max-mid:text-[25px] max-mid:p-0 max-phone:text-[23px] max-phone:p-0 font-bold text-center text-gray-900 font-roboto mb-8'>
+                <h1 className='text-[30px] max-xl:text-[32px] max-xl:px-80 max-mxl:text-[30px] max-mxl:px-48 max-mid:text-[25px] max-mid:p-0 max-mlg:text-[30px] max-mlg:px-[22px] max-phone:text-[23px] max-phone:p-0 font-bold text-center text-gray-900 font-roboto mb-8'>
                     <span className="inline-block relative">
                         <span className="shadow-[inset_0_-0.25em_rgba(37,99,235,0.8)]">
                             <span className="relative z-0">
@@ -59,14 +58,15 @@ export default function Hero() {
                     </span>
                 </h1>
                 <Herocard />
+                <br />
             </div>
 
 
-            <div className="flex justify-center mt-8">
+            {/* <div className="flex justify-center mt-8">
                 <div className="max-w-screen-sm w-full">
                     <Newsletter />
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
