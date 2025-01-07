@@ -1,0 +1,25 @@
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.fade-circle {
+    animation: fade 6s infinite;
+}
+
+.animation-delay-1 {
+    animation-delay: 0s;
+}
+.animation-delay-2 {
+    animation-delay: 1s;
+}
+.animation-delay-3 {
+    animation-delay: 2s;
+}
+.animation-delay-4 {
+    animation-delay: 3s;
+}
