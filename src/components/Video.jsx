@@ -3,6 +3,7 @@ import React from 'react'
 export default function Video() {
     return (
         <>
+        {/* Video for the website */}
             <section>
                 <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
                     <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">

@@ -19,7 +19,6 @@ export default function Hero() {
                     </div>
                 </div>
                 <Video />
-
             </div>
         </section>
     )
