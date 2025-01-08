@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import Logo from '../assets/logo.svg';
+import BurgerIcon from './BurgerIcon';
 
-const Navbar = () => {
+const Header = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
-        <header className="py-4 sticky top-0 z-50">
+        <header className="py-6 sticky top-0 z-50">
             <div className="container">
-                <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl mx-auto bg-black/30 backdrop-blur-md">
+                <div className="flex md:py-5 justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl mx-auto bg-black/30 backdrop-blur-md">
                     <div className="flex items-center gap-4">
                         <div className="border h-10 w-10 rounded-lg inline-flex items-center justify-center border-white/15">
-                            <img src={Logo} alt="Logo" className="h-8 w-8" />
+                            <img src={Logo} alt="Logo" width={32} height={32} />
                         </div>
                         <h1 className="text-white font-semibold">Tech MasterMind</h1>
                     </div>
@@ -20,10 +28,38 @@ const Navbar = () => {
                             <a href="#contact" className="text-white/70 hover:text-white hover:underline transition">Contact</a>
                         </nav>
                     </div>
+                    <div className="md:hidden">
+                        <button
+                            onClick={toggleMenu}
+                            className="text-white p-2 focus:outline-none focus:ring-2 focus:ring-white/50 rounded-md"
+                            aria-label="Toggle menu"
+                            aria-expanded={isOpen}
+                        >
+                            <BurgerIcon isOpen={isOpen} />
+                        </button>
+                    </div>
                 </div>
             </div>
+            <AnimatePresence>
+                {isOpen && (
+                    <motion.div
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -20 }}
+                        transition={{ duration: 0.3 }}
+                        className="md:hidden absolute top-full left-0 right-0 bg-black/95 backdrop-blur-md"
+                    >
+                        <nav className="flex flex-col items-center py-4">
+                            <a href="#about" className="text-white/70 hover:text-white py-2 px-4 w-full text-center" onClick={toggleMenu}>Home</a>
+                            <a href="#experience" className="text-white/70 hover:text-white py-2 px-4 w-full text-center" onClick={toggleMenu}>About</a>
+                            <a href="#project" className="text-white/70 hover:text-white py-2 px-4 w-full text-center" onClick={toggleMenu}>Stories</a>
+                            <a href="#contact" className="text-white/70 hover:text-white py-2 px-4 w-full text-center" onClick={toggleMenu}>Contact</a>
+                        </nav>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </header>
-    )
-}
+    );
+};
 
-export default Navbar;
+export default Header;
