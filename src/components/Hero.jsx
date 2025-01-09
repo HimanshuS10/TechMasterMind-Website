@@ -107,16 +107,16 @@ export default function Hero() {
                     Discover how software engineers achieve success in the tech industry by exploring their case studies, journeys, and advice for aspiring software engineers.
                 </p>
                 <div className="flex justify-center mt-5">
-                    <a href="#about">
+                    <a href="#video">
                         <Button>
-                            Hello World
+                            Learn More
                         </Button>
                     </a>
                 </div>
             </div>
 
             {/* Video Section */}
-            <div className="relative z-10 mt-10 w-full max-w-4xl">
+            <div id='video' className="relative z-10 mt-10 w-full max-w-4xl">
                 <Video />
             </div>
 

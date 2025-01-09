@@ -13,9 +13,14 @@ const BurgerIcon = ({ isOpen }) => (
         {isOpen ? (
             <path d="M6 18L18 6M6 6l12 12" />
         ) : (
-            <path d="M4 6h16M4 12h16M4 18h16" />
+            <>
+                <path d="M4 6h16" />
+                <path d="M8 12h12" />
+                <path d="M4 18h16" />
+            </>
         )}
     </svg>
 );
 
 export default BurgerIcon;
+

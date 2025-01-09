@@ -1,12 +1,15 @@
 import React from 'react'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export default function About() {
   return (
     <>
-      <div clasnName='bg-[#0E1217]'>
+      <div className='bg-[#0E1217]'>
+
         <Header />
-        {/* < Aboutcontent /> */}
+
+        <Footer />
       </div>
     </>
   )
