@@ -1,13 +1,13 @@
 import React from 'react'
+import Himanshucard from './blogcards/Himanshucard'
 
 export default function Himanshublog() {
     return (
         <div className='container mx-auto relative'>
             <div className='bg-black/30 border border-n-2/10 rounded-lg p-4 sm:p-6 md:p-8 lg:p-10 relative overflow-hidden'>
-                {/* Gradient shapes */}
-                <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-blue-500/30 to-purple-500/30 rounded-full blur-3xl"></div>
-                <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-blue-500/30 to-purple-500/30 rounded-full blur-3xl"></div>
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-gradient-to-r from-blue-500/30 to-purple-500/30 rounded-full blur-3xl"></div>
+
+                < Himanshucard />
+
 
                 {/* Content */}
                 <div className="relative z-10">
