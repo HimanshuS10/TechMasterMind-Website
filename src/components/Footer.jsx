@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import Logo from '../assets/logo.svg';
@@ -5,7 +7,7 @@ import { Instagram, Twitter, Mail, Youtube } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer className="py-6">
+        <footer className="py-6 mt-auto">
             <div className="container">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center border border-white/15 md:p-6 max-md:p-3 rounded-xl mx-auto bg-black/30 backdrop-blur-md">
                     <div className="flex flex-col items-start gap-4 mb-4 md:mb-0">

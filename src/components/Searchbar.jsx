@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 export default function Searchbar({ items, setFilteredItems }) {
     const [input, setInput] = useState('');
 
@@ -17,17 +16,15 @@ export default function Searchbar({ items, setFilteredItems }) {
     };
 
     return (
-        <div className="py-6 top-0 z-50">
-            <div className="container">
-                    <input
-                        className="p-2 rounded-lg bg-white text-black"
-                        type="search"
-                        id="searchbar"
-                        value={input}
-                        onChange={searchStory}
-                        placeholder="Search..."
-                    />
-            </div>
+        <div className="pb-6 top-0 z-50">
+            <input
+                className="p-2 min-w-full max-w-md rounded-lg bg-white text-black "
+                type="search"
+                id="searchbar"
+                value={input}
+                onChange={searchStory}
+                placeholder="Search..."
+            />
         </div>
     );
 }

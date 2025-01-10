@@ -8,9 +8,14 @@ export default function Stories() {
   return (
     <>
       <div className='bg-[#0E1217]'>
-        <Header />
-        <Blogcard />
-        <Footer />
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          <main className="flex-grow">
+            <Blogcard />
+          </main>
+          <Footer />
+        </div>
+
       </div>
     </>
   )
