@@ -6,9 +6,7 @@ export default function Contact() {
   return (
     <>
       <div className='bg-[#0E1217]'>
-
         <Header />
-
         <Footer />
       </div>
     </>
