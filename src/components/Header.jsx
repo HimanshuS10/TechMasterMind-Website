@@ -19,7 +19,7 @@ const Header = () => {
                             <div className="border h-10 w-10 rounded-lg inline-flex items-center justify-center border-white/15">
                                 <img src={Logo} alt="Logo" width={32} height={32} />
                             </div>
-                            <h1 className="text-white font-semibold">Tech MasterMind</h1>
+                            <h1 className="text-white font-semibold text-lg">Tech MasterMind</h1>
                         </a>
                     </div>
                     <div className="hidden md:block mr-6">

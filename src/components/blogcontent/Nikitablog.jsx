@@ -1,54 +1,50 @@
-import React from 'react'
-import Nikitacard from './blogcards/Nikitacard'
+import React from 'react';
+import Nikitacard from './blogcards/Nikitacard';
 
 export default function Nikitablog() {
     return (
         <div className='container mx-auto relative'>
             <div className='bg-black/30 border border-n-2/10 rounded-lg p-4 sm:p-6 md:p-8 lg:p-10 relative overflow-hidden'>
 
-                < Nikitacard />
-
+                <Nikitacard />
 
                 {/* Content */}
                 <div className="relative z-10">
                     <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center sm:text-left text-white mb-6 sm:mb-8 max-w-4xl mx-auto leading-tight">
-                        <span className='shadow-[inset_0_-0.25em_rgba(37,99,235,0.8)]'>Building Tech MasterMind:</span> My Journey and Vision
+                        Learning to Code to Becoming a Salesforce Developer
                     </h1>
                     <div className='text-white text-base sm:text-lg md:text-xl space-y-4 sm:space-y-6 max-w-4xl mx-auto'>
-                        <p>Hi there! I am Himanshu Seervi, the founder of Tech MasterMind. I am a 2nd year broke univeristy student studying software engineering at University of Guelph.</p>
-                        <p>As we all know, the job market for software engineering and tech in general has been bad after COVID-19.
+                        <p>Hi, I’m Nikita Verkhoshintcev, and here’s how I became a self-taught developer.</p>
 
-                        </p>
-                        <p>This is impacting many people—students and full time workers. Personally, I feel stressed about whether I will be able to secure a full-time job after graduation.
+                        <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-4">Early Stage</h1>
+                        <p>My journey began with an idea for an iPhone app, but I didn’t know how to code. A friend introduced me to Treehouse, where I immersed myself in learning programming, dedicating up to 12 hours a day. After a few months, I hit a plateau and took a break.</p>
 
-                        </p>
-                        <p>So I started working on some side project to get ahead but as soon as I opened VSCode I had no idea what to build. I didn't want to build a basic program like Weather App, or a Calculator.
+                        <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-4">Learning Web Design</h1>
+                        <p>When I resumed, I focused on web design, learning HTML, CSS, and design concepts. JavaScript was challenging, especially with layout issues like floats, but a friend helped me out. He also recommended learning Git and MVC for job prospects.</p>
 
-                        </p>
+                        <p>By May/June 2015, I was taking Front-End Development and Full Stack JavaScript courses on Treehouse.</p>
 
-                        <p>I just wish someone could provide step-by-step guidance on what I can do or build to succeed in this industry.
+                        <p>I explored freelancing, read extensively, and learned about WordPress development to give clients control over their websites.</p>
 
-                        </p>
+                        <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-4">Freelancing</h1>
+                        <p>In August 2015, I started freelancing. My initial challenge was finding clients. Offering my services for free to gain experience led me to my first client—a local goldsmith-designer.</p>
 
-                        <p>Then this problom sparkles an idea in my head, what if I build something where I can create a platform that provides the guidance I was seeking?
+                        <p>This project helped me gain practical experience with WordPress and WooCommerce.</p>
 
-                        </p>
-                        <p>A platform where all the aspiring software engineers and technopreneurs can learn directly from the journeys and experiences of the successful people in this field.
+                        <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-4">Personal Projects</h1>
+                        <p>Next, I tackled AngularJS, creating a single-page application (Magic Spoiler.io). I faced issues like integrating the Disqus plugin and making the site SEO-friendly, but it was a great learning experience.</p>
 
-                        </p>
-                        <p>This is how Tech MasterMind was born—a unique platform inspired by the concept of Starter Story but tailored specifically for the tech industry.
+                        <p>I joined UpWork, landed my first paid job designing and building a WordPress site from scratch, and completed MEAN stack courses through Code School.</p>
 
-                        </p>
-                        <p>So Tech MasterMind is an online platform where I will interview various technopreneurs and software engineers. I will ask them about their journeys and how they achieved success in this field.
+                        <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-4">Current Stage and My Advice</h1>
+                        <p>Currently, I’m a Salesforce Developer/Solution Architect at DigitalFlask.</p>
 
-                        </p>
+                        <p>For those starting out, there are many free resources available, such as Treehouse, Code School, and FreeCodeCamp. My advice: practice a lot, build your own projects, and create a portfolio. Good luck!</p>
 
-                        <p>I will then compile those interviews into "success story blogs" so that aspiring software engineers and technopreneurs can learn from their experiences and implement their advices.</p>
-                        <p>Thanks for reading!</p>
+                        <p>Thank you for reading!</p>
                     </div>
                 </div>
             </div>
         </div>
-
-    )
+    );
 }
