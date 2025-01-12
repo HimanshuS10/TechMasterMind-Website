@@ -61,6 +61,15 @@ export default function Jasonblog() {
                         <p>Jason once said, "Don't be an elephant." He meant that people sometimes don't realize that elephants are not tied down with a strong rope or chain but only with a small stick and a piece of rope. Although it seems like the elephant can easily pull out the stick from the ground, in reality, they can't because when they were young, they were tied up securely and learned that they weren't strong enough to escape.</p>
 
                         <p><i>"So know this: you won't be able to immediately pull the stick out of the ground, but you will get there. If you aren't the smartest person in the room, you're doing something right. And if you are the smartest person in the room, find a different room."</i></p>
+
+                        <hr />
+
+                        <div className="aspect-w-16 aspect-h-9 text-center">
+                            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-4">Watch Jason's Video About His Journey</h1>
+                            <div className="aspect-w-16 aspect-h-9">
+                                <iframe className='mx-auto max-w-[560] max-h-[315]'  src="https://www.youtube.com/embed/fehAgOqTR44?si=e2zUBnDvZ9JuEqG8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

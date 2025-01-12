@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Instagram, Twitter, Mail, Youtube } from 'lucide-react'
+import { Instagram, Twitter, Linkedin, Youtube } from 'lucide-react'
 import Pfp from '../../../assets/Jason-Profile.jpg'
 
 
@@ -20,7 +20,7 @@ export default function Jasoncard() {
                     </div>
                     <div>
                         <h1 className="text-white text-2xl font-semibold">Jason Goodison</h1>
-                        <p className="text-white/70 text-sm mb-4">Founder of Pair AI</p>
+                        <p className="text-white/70 text-sm mb-4">Founder of SuperCall</p>
                         <motion.a
                             href="#Jasonblog"
                             whileHover={{ scale: 1.05 }}
@@ -32,21 +32,21 @@ export default function Jasoncard() {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-start md:items-end gap-4" id='Jasonblog'>
+                <div className="flex flex-col items-start gap-4" id='Jasonblog'>
                     <p className="text-white/70 text-sm max-w-md">
-                        Meet Jason Goodison, the founder of a software company called Pair AI. Learn how Jason became a software engineer despite struggling with coding, and having worked for Yahoo, Toast, and Microsoft before becoming an techpreneur.
+                        Meet Jason Goodison, the founder of a software company called SuperCall. Learn how Jason became a software engineer despite struggling with coding, and having worked for Yahoo, Toast, and Microsoft before becoming an techpreneur.
                     </p>
                     <div className="flex gap-4">
-                        <a href="#" className="text-white/70 hover:text-white transition" aria-label="Instagram">
+                        <a href="https://www.instagram.com/jasongoodison/" className="text-white/70 hover:text-white transition" aria-label="Instagram">
                             <Instagram size={24} />
                         </a>
-                        <a href="#" className="text-white/70 hover:text-white transition" aria-label="Twitter">
+                        <a href="https://www.linkedin.com/in/jasonlevigoodison/" className="text-white/70 hover:text-white transition" aria-label="LinkedIn">
+                            <Linkedin size={24} />
+                        </a>
+                        <a href="https://x.com/GoodisonJason" className="text-white/70 hover:text-white transition" aria-label="Twitter/X">
                             <Twitter size={24} />
                         </a>
-                        <a href="#" className="text-white/70 hover:text-white transition" aria-label="Email">
-                            <Mail size={24} />
-                        </a>
-                        <a href="#" className="text-white/70 hover:text-white transition" aria-label="YouTube">
+                        <a href="https://www.youtube.com/@JasonGoodison" className="text-white/70 hover:text-white transition" aria-label="YouTube">
                             <Youtube size={24} />
                         </a>
                     </div>

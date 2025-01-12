@@ -17,18 +17,23 @@ const Footer = () => {
                             </div>
                             <div>
                                 <h2 className="text-white font-semibold">Tech MasterMind</h2>
-                                <p className="text-white/70 text-sm">Empowering Your Digital Journey</p>
+                                <p className="text-white/70 text-sm">Your Guide to Success in the Tech Industry</p>
                             </div>
                         </div>
+
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             className="bg-white text-black font-semibold py-2 px-4 rounded-lg"
                         >
-                            Start Reading
+                            <a href="/stories">
+                                Start Reading
+                            </a>
                         </motion.button>
                     </div>
-                    
+
+
+
                     <div className="flex flex-col items-end gap-4">
                         <nav>
                             <ul className="flex flex-wrap justify-end gap-4 text-sm">
@@ -39,16 +44,16 @@ const Footer = () => {
                             </ul>
                         </nav>
                         <div className="flex gap-4">
-                            <a href="#" className="text-white/70 hover:text-white transition" aria-label="Instagram">
+                            <a href="https://www.instagram.com/himanshu_seervi10/" className="text-white/70 hover:text-white transition" aria-label="Instagram">
                                 <Instagram size={24} />
                             </a>
                             <a href="#" className="text-white/70 hover:text-white transition" aria-label="Twitter">
                                 <Twitter size={24} />
                             </a>
-                            <a href="#" className="text-white/70 hover:text-white transition" aria-label="Email">
+                            <a href="mailto:himseervi@gmail.com" className="text-white/70 hover:text-white transition" aria-label="Email">
                                 <Mail size={24} />
                             </a>
-                            <a href="#" className="text-white/70 hover:text-white transition" aria-label="YouTube">
+                            <a href="https://www.instagram.com/himanshu_seervi10/" className="text-white/70 hover:text-white transition" aria-label="YouTube">
                                 <Youtube size={24} />
                             </a>
                         </div>

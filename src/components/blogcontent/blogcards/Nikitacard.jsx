@@ -36,7 +36,7 @@ export default function Nikitacard() {
                     <p className="text-white/70 text-sm max-w-md">
                         Nikita Verkhoshintcev's journey from a novice coder to a Salesforce Developer and Solution Architect. It covers his experiences with learning to code and much more, and also offers practical advice for aspiring developers.
                     </p>
-                    <div className="flex gap-4">
+                    {/* <div className="flex gap-4">
                         <a href="#" className="text-white/70 hover:text-white transition" aria-label="Instagram">
                             <Instagram size={24} />
                         </a>
@@ -49,7 +49,7 @@ export default function Nikitacard() {
                         <a href="#" className="text-white/70 hover:text-white transition" aria-label="YouTube">
                             <Youtube size={24} />
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

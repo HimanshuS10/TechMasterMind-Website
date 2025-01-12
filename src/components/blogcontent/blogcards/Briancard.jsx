@@ -33,21 +33,21 @@ export default function Briancard() {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-start md:items-end gap-4" id='Brianblog'>
+                <div className="flex flex-col items-start gap-4" id='Brianblog'>
                     <p className="text-white/70 text-sm max-w-md">
                         Discover how Brian Ruiz became a Full Stack Engineer at Hines without a college degree. Through self-taught skills, hands-on projects, and valuable university experiences, he built a successful career in technology.
                     </p>
                     <div className="flex gap-4">
-                        <a href="#" className="text-white/70 hover:text-white transition" aria-label="Instagram">
+                        <a href="https://www.instagram.com/brianruizy/" className="text-white/70 hover:text-white transition" aria-label="Instagram">
                             <Instagram size={24} />
                         </a>
-                        <a href="#" className="text-white/70 hover:text-white transition" aria-label="Twitter">
+                        <a href="https://x.com/brianruizy" className="text-white/70 hover:text-white transition" aria-label="Twitter">
                             <Twitter size={24} />
                         </a>
-                        <a href="#" className="text-white/70 hover:text-white transition" aria-label="Email">
+                        {/* <a href="#" className="text-white/70 hover:text-white transition" aria-label="Email">
                             <Mail size={24} />
-                        </a>
-                        <a href="#" className="text-white/70 hover:text-white transition" aria-label="YouTube">
+                        </a> */}
+                        <a href="https://www.youtube.com/@brianruizy" className="text-white/70 hover:text-white transition" aria-label="YouTube">
                             <Youtube size={24} />
                         </a>
                     </div>

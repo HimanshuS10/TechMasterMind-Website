@@ -1,4 +1,5 @@
 import React from 'react'
+import { Instagram, Twitter, Mail, Youtube } from 'lucide-react';
 
 export default function AboutContent() {
   return (
@@ -15,13 +16,29 @@ export default function AboutContent() {
             <span className='shadow-[inset_0_-0.25em_rgba(37,99,235,0.8)]'>Building Tech MasterMind:</span> My Journey and Vision
           </h1>
           <div className='text-white text-base sm:text-lg md:text-xl space-y-4 sm:space-y-6 max-w-4xl mx-auto'>
-            <p>At daily.dev, we believe that developers are the architects of tomorrow. As the world evolves, so do the demands and expectations placed upon those who shape the digital landscape. We exist to empower developers with the tools, knowledge, and community they need to stay ahead of the curve and build the future.</p>
-            <p>We are living in an extraordinary time. The future of development is being reshaped by forces that will change the way we think about coding, creativity, and problem-solving. As AI lowers the barriers to entry, we are seeing an unprecedented influx of new developers from all corners of the world. These new creators will not be defined by traditional technical skills alone. Instead, impact, creativity, and knowledge will take center stage.</p>
-            <p>daily.dev is more than just a platform; it's a community where developers from diverse backgrounds come together to share, grow, and push the boundaries of what's possible. We offer a complete experience that combines cutting-edge content, meaningful connections, and opportunities for personal and professional growth.</p>
-            <p>The developer of tomorrow will need more than just technical know-how. As the landscape evolves, they will need guidance, support, and a thriving community to help them navigate their careers. At daily.dev, we are building the future with that vision in mind—a place where developers can shape their identities, expand their influence, and find the opportunities that align with their goals.</p>
-            <p>We understand that today's developers need more than fragmented solutions. That's why we've created a platform that brings everything together under one roof. By offering an ecosystem where knowledge, community, and opportunity converge, we are empowering developers to lead the charge into the future.</p>
-            <p>What drives us is the belief that every developer should have the chance to reach their full potential. We are motivated by the vision of a world where their work has a lasting impact and where they are recognized for the real value they bring.</p>
-            <p>This is our mission: to build the future for those who are building the future.</p>
+            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-4">What is Tech MasterMind?</h1>
+            <p>At Tech MasterMind, we conduct interviews with successful software engineers, delving into the insights and experiences that fueled their success. These compelling stories are designed to inspire aspiring software engineers like myself, offering not only motivation but also practical, specific advice to help navigate the path in the tech industry.</p>
+
+            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-4">Meet the Founder:</h1>
+            <p>Hi there! My name is Himanshu Seervi and I am the founder of Tech MasterMind.</p>
+            <p>Learn more about me <a href='/stories/Himanshu'> <u className='text-blue-500'>here</u>.</a></p>
+
+            <div className="flex gap-4">
+              <p>My Socials: </p>
+              <a href="https://www.instagram.com/himanshu_seervi10/" className="text-white/70 hover:text-white transition" aria-label="Instagram">
+                <Instagram size={24} />
+              </a>
+              <a href="#" className="text-white/70 hover:text-white transition" aria-label="Twitter">
+                <Twitter size={24} />
+              </a>
+              <a href="mailto:himseervi@gmail.com" className="text-white/70 hover:text-white transition" aria-label="Email">
+                <Mail size={24} />
+              </a>
+              <a href="#" className="text-white/70 hover:text-white transition" aria-label="YouTube">
+                <Youtube size={24} />
+              </a>
+            </div>
+
           </div>
         </div>
       </div>
