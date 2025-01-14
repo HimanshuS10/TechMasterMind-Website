@@ -1,16 +1,22 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Searchbar from '../components/Searchbar'
-import Card from '../components/Card'
+import Header from '../components/Header'
 import Footer from '../components/Footer'
-import '../App.css'
+import Storiespage from '../components/Storiespage'
+import Blogcard from '../components/Blogcard'
 
 export default function Stories() {
   return (
-    <div className='min-h-screen flex flex-col dark:bg-gray-900'>
-        <Navbar />
-        <Card />
-        <Footer />
-    </div>
+    <>
+      <div className='bg-[#0E1217]'>
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          <main className="flex-grow">
+            <Blogcard />
+          </main>
+          <Footer />
+        </div>
+
+      </div>
+    </>
   )
 }

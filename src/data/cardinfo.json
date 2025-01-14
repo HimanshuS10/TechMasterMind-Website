@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "Title": "Building Tech MasterMind, My Journey and Vision",
+        "Description": "Discover the story behind Tech MasterMind, a platform dedicated to interviewing techpreneurs and software engineers. Join me, Himanshu Seervi, as I navigate the challenges of building this project while sharing insights and advice for aspiring developers and entrepreneurs.",
+        "Image": "../src/assets/HimanshuS.png",
+        "Links": "stories/Himanshu"
+    },
+    {
+        "id": 2,
+        "Title": "Here's How Brian Became a Full Stack Engineer Without a Degree",
+        "Description": "Discover how Brian Ruiz became a Full Stack Engineer at Hines without a college degree. Through self-taught skills, hands-on projects, and valuable university experiences, he built a successful career in technology.",
+        "Image": "../src/assets/BrianR-Thumbnail.png",
+        "Links": "stories/Brian"
+
+    },
+    {
+        "id": 3,
+        "Title": "Learning to Code to Becoming a Salesforce Developer",
+        "Description": "Discover how Nikita Verkhoshintcev went from a beginner with no coding experience to a Salesforce Developer/Solution Architect at DigitalFlask. Through self-study, hands-on projects, and practical freelancing, building a thriving career in the tech industry.",
+        "Image": "../src/assets/Nikita-Thumbnail.png",
+        "Links": "stories/Nikita"
+
+    },
+    {
+        "id": 4,
+        "Title": "From Self-Doubt to Microsoft: Learn how Jason became a software engineer at Microsoft",
+        "Description": "Meet Jason Goodison a boy who did not know to code a single but in 4 years he became a software engineer at Microsoft. While overcoming early setbacks and imposter syndrome, he transformed challenges into opportunities and ultimately achieved his goals.",
+        "Image": "../src/assets/Jason-Thumbnail.webp",
+        "Links": "stories/Jason"
+    }
+]
