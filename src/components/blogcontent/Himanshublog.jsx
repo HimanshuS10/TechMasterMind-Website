@@ -1,5 +1,7 @@
 import React from 'react'
 import Himanshucard from './blogcards/Himanshucard'
+import Jobmarket from '../../assets/blogimg/Himanshu/Jobmarket.png'
+import StarterStory from '../../assets/blogimg/Himanshu/StarterStory.png'
 
 export default function Himanshublog() {
     return (
@@ -16,9 +18,10 @@ export default function Himanshublog() {
                     </h1>
                     <div className='text-white text-base sm:text-lg md:text-xl space-y-4 sm:space-y-6 max-w-4xl mx-auto'>
                         <p>Hi there! I am Himanshu Seervi, the founder of Tech MasterMind. I am a 2nd year broke univeristy student studying software engineering at University of Guelph.</p>
-                        <p>As we all know, the job market for software engineering and tech in general has been bad after COVID-19.
+                        <p>As we all know, the job market for software engineering and tech in general has been bad after COVID-19.</p>
 
-                        </p>
+                        <img src={Jobmarket} className='max-h-80 mx-auto' alt="Job market of software engineering states" />
+
                         <p>This is impacting many people—students and full time workers. Personally, I feel stressed about whether I will be able to secure a full-time job after graduation.
 
                         </p>
@@ -36,12 +39,19 @@ export default function Himanshublog() {
                         <p>A platform where all the aspiring software engineers and technopreneurs can learn directly from the journeys and experiences of the successful people in this field.
 
                         </p>
-                        <p>This is how Tech MasterMind was born—a unique platform inspired by the concept of Starter Story but tailored specifically for the tech industry.
+                        <p>This is how Tech MasterMind was born—a unique platform inspired by the concept of Starter Story but tailored specifically for the tech industry.</p>
 
-                        </p>
-                        <p>So Tech MasterMind is an online platform where I will interview various technopreneurs and software engineers. I will ask them about their journeys and how they achieved success in this field.
+                        <hr />
 
-                        </p>
+                        <img src={StarterStory} className='max-h-80 mx-auto' alt="Job market of software engineering states" />
+                     
+                        <div className='text-center px-3'>
+                            <p><i>Starter Story is a website where Pat Walls, the founder, interviews successful entrepreneurs and shares their journeys.</i></p>
+                        </div>
+
+                        <hr />
+
+                        <p>So Tech MasterMind is an online platform where I will interview various technopreneurs and software engineers. I will ask them about their journeys and how they achieved success in this field.</p>
 
                         <p>I will then compile those interviews into "success story blogs" so that aspiring software engineers and technopreneurs can learn from their experiences and implement their advices.</p>
                         <p>Thanks for reading!</p>

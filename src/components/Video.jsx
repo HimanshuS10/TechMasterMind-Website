@@ -1,6 +1,7 @@
 import React from 'react';
 import Playbtn from '../assets/PlayBtn.svg';
 import Image from '../assets/placeholder.png';
+import HeroImg from '../assets/HeroImg.png';
 
 export default function Video() {
 
@@ -8,7 +9,7 @@ export default function Video() {
         <div className="container relative flex flex-col items-center bg-black p-6 mb-20 rounded-lg shadow-2xl shadow-blue-500 mt-24 max-md:mt-10 mx-auto max-w-4xl">
             {/* Play Button */}
             <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 z-10">
-                <a href="#" >
+                <a href="https://youtu.be/H0NrEse1gh4" target="_blank">
                     <img
                         src={Playbtn}
                         alt="Play Button"
@@ -22,7 +23,7 @@ export default function Video() {
                 <picture className="grid w-full aspect-video grid-rows-picture mx-auto">
                     {/* Image */}
                     <img
-                        src={Image}
+                        src={HeroImg}
                         alt="Mouse"
                         className="w-full h-full object-cover clip-img mx-auto text-center"
                     />
