@@ -1,5 +1,5 @@
 import React from 'react';
-import Playbtn from '../assets/PlayBtn.svg';
+import Playbtn from '../assets/Playbtn.svg';
 import Image from '../assets/placeholder.png';
 import HeroImg from '../assets/HeroImg.png';
 
