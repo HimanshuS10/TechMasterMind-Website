@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Searchbar from './Searchbar';
-import info from '../data/cardInfo.json';
+import info from '../data/cardinfo.json';
 
 export default function Blogcard() {
     const [filteredItems, setFilteredItems] = useState(info);
