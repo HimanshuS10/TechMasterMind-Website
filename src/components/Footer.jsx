@@ -24,7 +24,7 @@ const Footer = () => {
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="bg-white text-black font-semibold py-2 px-4 rounded-lg"
+                            className="bg-white text-black font-semibold py-2 px-4 rounded-lg max-md:hidden"
                         >
                             <a href="/stories">
                                 Start Reading
@@ -34,8 +34,11 @@ const Footer = () => {
 
 
 
-                    <div className="flex flex-col items-end gap-4">
-                        <nav>
+
+
+                    <div className="flex flex-col items-end max-md:items-center gap-4 max-md:w-full">
+                        <nav className='md:mx-auto'>
+                        <hr className='hidden max-md:pt-2 max-md:pb-4 max-md:block' />
                             <ul className="flex flex-wrap justify-end gap-4 text-sm">
                                 <li><a href="#home" className="text-white/70 hover:text-white hover:underline transition">Home</a></li>
                                 <li><a href="#about" className="text-white/70 hover:text-white hover:underline transition">About</a></li>
@@ -43,7 +46,7 @@ const Footer = () => {
                                 <li><a href="#contact" className="text-white/70 hover:text-white hover:underline transition">Contact</a></li>
                             </ul>
                         </nav>
-                        <div className="flex gap-4">
+                        <div className="flex gap-4 justify-center">
                             <a href="https://www.instagram.com/himanshu_seervi10/" className="text-white/70 hover:text-white transition" aria-label="Instagram">
                                 <Instagram size={24} />
                             </a>
