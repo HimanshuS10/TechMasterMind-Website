@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import Logo from '../assets/logo.svg';
+import Logo from '../assets/Logo.svg';
 import { Instagram, Twitter, Mail, Youtube } from 'lucide-react';
 
 const Footer = () => {
