@@ -50,7 +50,7 @@ const Footer = () => {
                             <a href="https://www.instagram.com/himanshu_seervi10/" className="text-white/70 hover:text-white transition" aria-label="Instagram" target='_blank'>
                                 <Instagram size={24} />
                             </a>
-                            <a href="#" className="text-white/70 hover:text-white transition" aria-label="Twitter" target='_blank'>
+                            <a href="https://x.com/HimanshuSeervi_" className="text-white/70 hover:text-white transition" aria-label="Twitter" target='_blank'>
                                 <Twitter size={24} />
                             </a>
                             <a href="mailto:himseervi@gmail.com" className="text-white/70 hover:text-white transition" aria-label="Email" target='_blank'>
