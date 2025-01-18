@@ -35,7 +35,7 @@ export default function Himanshucard() {
 
                 <div className="flex flex-col items-start gap-4" id='Himanshublog'>
                     <p className="text-white/70 text-sm max-w-md">
-                        Hi there! My name is Himanshu Seervi, and I am the founder of Tech MasterMind. On this page, I'll share what Tech MasterMind is all about and tell you a bit more about myself.
+                        Hi there! I'm Himanshu Seervi, the founder of Tech MasterMind. On this page, I will share everything about myself and my reasons for building Tech MasterMind.
                     </p>
                     <div className="flex gap-4">
                         <a href="https://www.instagram.com/himanshu_seervi10/" className="text-white/70 hover:text-white transition" aria-label="Instagram">

@@ -2,6 +2,7 @@ import React from 'react';
 import Playbtn from '../assets/Playbtn.svg';
 import Image from '../assets/placeholder.png';
 import HeroImg from '../assets/HeroImg.png';
+import Display from '../assets/DisplayImg.svg';
 
 export default function Video() {
 
@@ -23,7 +24,7 @@ export default function Video() {
                 <picture className="grid w-full aspect-video grid-rows-picture mx-auto">
                     {/* Image */}
                     <img
-                        src={HeroImg}
+                        src={Display}
                         alt="Mouse"
                         className="w-full h-full object-cover clip-img mx-auto text-center"
                     />

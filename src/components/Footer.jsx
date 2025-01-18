@@ -40,10 +40,10 @@ const Footer = () => {
                         <nav className='md:mx-auto'>
                         <hr className='hidden max-md:pt-2 max-md:pb-4 max-md:block' />
                             <ul className="flex flex-wrap justify-end gap-4 text-sm">
-                                <li><a href="#home" className="text-white/70 hover:text-white hover:underline transition">Home</a></li>
-                                <li><a href="#about" className="text-white/70 hover:text-white hover:underline transition">About</a></li>
-                                <li><a href="#stories" className="text-white/70 hover:text-white hover:underline transition">Stories</a></li>
-                                <li><a href="#contact" className="text-white/70 hover:text-white hover:underline transition">Contact</a></li>
+                                <li><a href="/" className="text-white/70 hover:text-white hover:underline transition">Home</a></li>
+                                <li><a href="/about" className="text-white/70 hover:text-white hover:underline transition">About</a></li>
+                                <li><a href="/stories" className="text-white/70 hover:text-white hover:underline transition">Stories</a></li>
+                                <li><a href="/contact" className="text-white/70 hover:text-white hover:underline transition">Contact</a></li>
                             </ul>
                         </nav>
                         <div className="flex gap-4 justify-center">
