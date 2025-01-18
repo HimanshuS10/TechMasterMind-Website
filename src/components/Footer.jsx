@@ -47,16 +47,16 @@ const Footer = () => {
                             </ul>
                         </nav>
                         <div className="flex gap-4 justify-center">
-                            <a href="https://www.instagram.com/himanshu_seervi10/" className="text-white/70 hover:text-white transition" aria-label="Instagram">
+                            <a href="https://www.instagram.com/himanshu_seervi10/" className="text-white/70 hover:text-white transition" aria-label="Instagram" target='_blank'>
                                 <Instagram size={24} />
                             </a>
-                            <a href="#" className="text-white/70 hover:text-white transition" aria-label="Twitter">
+                            <a href="#" className="text-white/70 hover:text-white transition" aria-label="Twitter" target='_blank'>
                                 <Twitter size={24} />
                             </a>
-                            <a href="mailto:himseervi@gmail.com" className="text-white/70 hover:text-white transition" aria-label="Email">
+                            <a href="mailto:himseervi@gmail.com" className="text-white/70 hover:text-white transition" aria-label="Email" target='_blank'>
                                 <Mail size={24} />
                             </a>
-                            <a href="https://www.instagram.com/himanshu_seervi10/" className="text-white/70 hover:text-white transition" aria-label="YouTube">
+                            <a href="https://www.instagram.com/himanshu_seervi10/" className="text-white/70 hover:text-white transition" aria-label="YouTube" target='_blank'>
                                 <Youtube size={24} />
                             </a>
                         </div>
